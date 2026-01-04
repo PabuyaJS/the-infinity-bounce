@@ -420,7 +420,7 @@ const InfinityBounce = () => {
             platform.spikesUp = true;
           }
 
-          if (platform.spikeTimer > 0.8) {
+          if (platform.spikeTimer > 0.6) {
             killBall();
             return;
           }
